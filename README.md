@@ -1,16 +1,36 @@
-# React + Vite
+# Week 8: CommunityHub (React Frontend)
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+## Author
+- **Team Lead:** Gilbert Mungai
+- **GitHub:** [@dream333wxrld-juice](https://github.com/dream333wxrld-juice)
+- **Date:** August 2026
 
-Currently, two official plugins are available:
+## Project Description
+CommunityHub is a team-built social/community platform frontend, built in React as part of IYF Season 11. This repo covers the Week 8 milestone: setting up the base React project and building out the core component structure (Layout, Posts, Profiles, and shared UI components).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Technologies Used
+- React
+- Vite
+- JavaScript (JSX)
+- CSS3
 
-## React Compiler
+## Features (Week 8 scope)
+- Header, Footer, and Sidebar layout components
+- Post feed with PostCard, PostList, and CreatePost
+- User profile components (UserCard, UserProfile)
+- Shared reusable components (Button, Input, Card)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## How to Run
+1. Clone this repository
+2. Run `npm install`
+3. Run `npm run dev`
+4. Open the local server URL shown in your terminal (usually `http://localhost:5173`)
 
-## Expanding the Oxlint configuration
+## Team Workflow
+All work happens via feature branch → Pull Request → teammate review → merge. See `CONTRIBUTORS.md` for team roles and ownership.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## Lessons Learned
+_To be filled in as the team completes the mini-project._
+
+## Challenges Faced
+_To be filled in as the team completes the mini-project._
