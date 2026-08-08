@@ -1,3 +1,4 @@
+feature/user-profile
 import UserCard from './components/User/UserCard';
 import UserProfile from './components/User/UserProfile';
 import Footer from './components/Layout/Footer';
@@ -22,3 +23,17 @@ function App() {
 }
 
 export default App;
+=======
+import PostsPage from './components/Post/PostsPage'
+import './App.css'
+
+function App() {
+  return (
+    <>
+      <PostsPage />
+    </>
+  )
+}
+
+export default App
+main
