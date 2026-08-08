@@ -16,9 +16,8 @@ function App() {
     <div>
       <UserCard user={sampleUser} />
       <UserProfile user={sampleUser} />
-    <Footer />
+      <Footer />
     </div>
-   
   );
 }
 
