@@ -4,30 +4,32 @@
 
 | Name | GitHub | Role | Contributions |
 |------|--------|------|---------------|
-| Gilbert Mungai | [@dream333wxrld-juice](https://github.com/dream333wxrld-juice) | Team Lead | Repo setup, branch protection, Auth, Header, Sidebar |
-| Trevor Wachira | [@TrevorWachira690](https://github.com/TrevorWachira690) | Developer | Posts (PostCard, PostList, CreatePost) |
-| Christine Wambui | [@kaywambui-1](https://github.com/kaywambui-1) | Developer | Profiles (UserCard, UserProfile), Footer |
+| Gilbert Mungai | [@dream333wxrld-juice](https://github.com/dream333wxrld-juice) | Team Lead | Repo setup, branch protection, Header, Sidebar, PageLayout, App integration |
+| Trevor Wachira | [@TrevorWachira690](https://github.com/TrevorWachira690) | Developer | PostCard, PostList (with search), CreatePost |
+| Christine Wambui | [@kaywambui-1](https://github.com/kaywambui-1) | Developer | UserCard, UserProfile, Footer |
 
 ## Contribution Breakdown
 
 ### Gilbert Mungai (Team Lead)
-- Set up the team repository and branch protection rules
-- Owns: Auth flow (login/signup, login button in Header)
-- Owns: Header component (logo, nav links, user menu)
-- Owns: Sidebar component (About, Popular Posts, Tags)
+- Set up the team repository, branch protection, and CONTRIBUTORS.md
+- Opened GitHub Issues for all MVP features (profiles, posts, comments, auth)
+- Built Header component (logo, nav, login button placeholder)
+- Built Sidebar component (About, Popular Posts, Tags)
+- Built PageLayout component wrapping Header and Footer around page content
+- Wired all components together in App.jsx, including shared posts state and like/delete handlers
+- Reviewed and approved teammate pull requests
 
 ### Trevor Wachira
-- Owns: Posts feature end-to-end
-- PostCard.jsx — individual post display (title, excerpt, author, date, likes)
-- PostList.jsx — renders array of posts
-- CreatePost.jsx — form to create a new post
+- Built PostCard component (title, excerpt, author, date, likes, delete)
+- Built PostList component with post search/filter functionality
+- Built CreatePost component with controlled form and validation
+- Reviewed and approved teammate pull requests
 
 ### Christine Wambui
-- Owns: Profiles feature end-to-end
-- UserCard.jsx — compact user display
-- UserProfile.jsx — full profile view
-- Footer component (links, copyright)
+- Built UserCard component for compact user display
+- Built UserProfile component with bio, join date, and post count
+- Built Footer component with nav links and copyright
+- Reviewed and approved teammate pull requests
 
 ## Notes
-- Comments feature is not yet built out in Week 8 — ownership will be assigned as it comes up in a later week.
-- All work happens via feature branch → Pull Request → teammate review → merge. No direct pushes to `main`.
+- All work happened via feature branch → Pull Request → teammate review → merge. No direct pushes to `main`.
