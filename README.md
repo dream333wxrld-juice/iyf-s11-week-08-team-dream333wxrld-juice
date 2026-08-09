@@ -1,3 +1,4 @@
+docs/add-team-readme
 # Week 8: CommunityHub (React Frontend)
 
 ## Authors
@@ -46,3 +47,4 @@ _Not included._
 
 ## Live Demo
 http://localhost:5173/
+main
