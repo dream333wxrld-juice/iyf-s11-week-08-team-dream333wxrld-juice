@@ -58,26 +58,26 @@ function App() {
     {
       id: 1,
       name: "Gilbert Mungai",
-      avatar: "https://i.pravatar.cc/150?u=gilbert",
+      avatar: "https://github.com/dream333wxrld-juice.png",
       bio: "Team lead. Building the frontend one component at a time."
     },
     {
       id: 2,
       name: "Trevor Wachira",
-      avatar: "https://i.pravatar.cc/150?u=trevor",
+      avatar: "https://github.com/TrevorWachira690.png",
       bio: "Handles the posts feature — feed, cards, and creation."
     },
     {
       id: 3,
       name: "Christine Wambui",
-      avatar: "https://i.pravatar.cc/150?u=christine",
+      avatar: "https://github.com/kaywambui-1.png",
       bio: "Owns profiles and footer. Detail-oriented."
     }
   ]
 
   const currentUser = {
     name: "Gilbert Mungai",
-    avatar: "https://i.pravatar.cc/150?u=gilbert",
+    avatar: "https://github.com/dream333wxrld-juice.png",
     bio: "Team lead for CommunityHub. Full-stack learner at IYF.",
     joinDate: "Aug 2026",
     postCount: posts.filter(p => p.author === "Gilbert Mungai").length
