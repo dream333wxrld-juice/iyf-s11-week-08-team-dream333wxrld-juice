@@ -1,3 +1,6 @@
+ fix/readme-live-demo
+docs/add-team-readme
+main
 # Week 8: CommunityHub (React Frontend)
 
 ## Authors
@@ -45,4 +48,9 @@ We ran into a few Git-related hurdles as a team: a merge conflict between an aut
 _Not included._
 
 ## Live Demo
+ fix/readme-live-demo
 _Not deployed._
+=======
+http://localhost:5173/
+main
+ main
